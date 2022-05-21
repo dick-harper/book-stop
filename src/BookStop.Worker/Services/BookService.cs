@@ -10,9 +10,11 @@ namespace BookStop.Worker.Services
 
   public class BookService : IBookService
   {
+    private readonly IDocumentRepository _documentRepository;
+
     public BookService(IDocumentRepository documentRepository, ILogger<BookService> logger)
     {
-
+      _documentRepository = documentRepository;
     }
 
     public Book GetBookById(string id)

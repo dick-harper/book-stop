@@ -4,12 +4,12 @@ namespace BookStop.Worker;
 
 public class Worker : BackgroundService
 {
-  private readonly IBookService _firestoreService;
+  private readonly IBookService _bookService;
   private readonly ILogger<Worker> _logger;
 
-  public Worker(IBookService firestoreService, ILogger<Worker> logger)
+  public Worker(IBookService bookService, ILogger<Worker> logger)
   {
-    _firestoreService = firestoreService;
+    _bookService = bookService;
     _logger = logger;
   }
 
