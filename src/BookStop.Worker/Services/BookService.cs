@@ -19,7 +19,7 @@ namespace BookStop.Worker.Services
 
     public Book GetBookById(string id)
     {
-      throw new NotImplementedException();
+      return null;
     }
   }
 }

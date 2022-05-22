@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC7D9039-0EE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStop.Worker", "src\BookStop.Worker\BookStop.Worker.csproj", "{918646EB-0C42-45C3-A85F-F4AF3CF6C261}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStop.Worker.Test", "src\BookStop.Worker.Test\BookStop.Worker.Test.csproj", "{92743D19-3F98-401D-92A5-A08CDA416397}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{918646EB-0C42-45C3-A85F-F4AF3CF6C261}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918646EB-0C42-45C3-A85F-F4AF3CF6C261}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918646EB-0C42-45C3-A85F-F4AF3CF6C261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92743D19-3F98-401D-92A5-A08CDA416397}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92743D19-3F98-401D-92A5-A08CDA416397}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92743D19-3F98-401D-92A5-A08CDA416397}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92743D19-3F98-401D-92A5-A08CDA416397}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{918646EB-0C42-45C3-A85F-F4AF3CF6C261} = {AC7D9039-0EE7-41BE-B298-A2479B10D6C9}
+		{92743D19-3F98-401D-92A5-A08CDA416397} = {AC7D9039-0EE7-41BE-B298-A2479B10D6C9}
 	EndGlobalSection
 EndGlobal

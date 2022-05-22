@@ -1,7 +1,6 @@
 using Bookstop.Worker.Models;
+namespace BookStop.Worker.Repositories;
 
-namespace BookStop.Worker.Repositories
-{
   public interface IDocumentRepository
   {
     Document GetById(string id);
@@ -19,4 +18,3 @@ namespace BookStop.Worker.Repositories
       return document;
     }
   }
-}
